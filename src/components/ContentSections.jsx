@@ -31,7 +31,7 @@ const ContentSections = () => {
           <div className="global-container">
             <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-20 xl:gap-28 xxl:gap-32">
               <div
-                className="jos order-2 overflow-hidden rounded-md md:order-1"
+                className="jos  overflow-hidden rounded-md md:order-1 order-1"
                 data-jos_animation="fade-left"
               >
                 <img
@@ -43,11 +43,11 @@ const ContentSections = () => {
                 />
               </div>
               <div
-                className="jos order-1 md:order-2"
+                className="jos md:order-2 order-2"
                 data-jos_animation="fade-right"
               >
                 <div className="mb-6">
-                  <h2 className="text-[80px]">{sections.section1?.title}</h2>
+                  <h2 className="lg:text-[80px] md:text-[41px] text-[24px]">{sections.section1?.title}</h2>
                 </div>
                 <div className="text-lg leading-[1.4] lg:text-[21px]">
                   {sections.section1?.paragraphs.map((paragraph, index) => (
@@ -68,7 +68,7 @@ const ContentSections = () => {
           <div className="global-container">
             <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-20 xl:grid-cols-[minmax(0,_1.2fr)_1fr] xl:gap-28 xxl:gap-32">
               <div
-                className="jos order-2 overflow-hidden rounded-md"
+                className="jos md:order-4 order-3 overflow-hidden rounded-md"
                 data-jos_animation="fade-left"
               >
                 <img
@@ -79,9 +79,9 @@ const ContentSections = () => {
                   className="h-auto w-full"
                 />
               </div>
-              <div className="jos order-1" data-jos_animation="fade-right">
+              <div className="jos md:order-3 order-4" data-jos_animation="fade-right">
                 <div className="mb-6">
-                  <h2 className="text-[80px]">{sections.section2?.title}</h2>
+                  <h2 className="lg:text-[80px] md:text-[41px]  text-[24px] ">{sections.section2?.title}</h2>
                 </div>
                 <div className="text-lg leading-[1.4] lg:text-[21px]">
                   {sections.section2?.paragraphs.map((paragraph, index) => (

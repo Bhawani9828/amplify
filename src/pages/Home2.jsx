@@ -1,4 +1,4 @@
-import hero2 from "../assets/img/simple/hero2.png";
+import hero2 from "../assets/img/simple/hero2.jpg";
 import JOS from "jos-animation";
 import BrandSlider from "../components/BrandSlider";
 import ServiceSection from "../components/ServiceSection";
@@ -22,7 +22,7 @@ function Home2() {
             <div className="global-container">
               {/* Hero Content */}
               <div className="mb-14 flex flex-col items-center text-center lg:mb-20">
-                <h1 className="jos slide-from-bottom md:text-[120px] mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px]">
+                <h1 className="jos slide-from-bottom lg:text-[120px] md:text-[58px]  text-[24px]  leading-tight mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px]">
                   Simplify your SaaS solution with AI
                 </h1>
                 <p className="jos slide-from-bottom mb-11 max-w-[700px] text-lg font-semibold sm:text-xl xl:max-w-[980px]">
@@ -59,7 +59,7 @@ function Home2() {
                   src={hero2}
                   alt="hero-dashboard"
                   width={1296}
-                  height={640}
+                  height={540}
                   className="h-auto w-full"
                 />
               </div>

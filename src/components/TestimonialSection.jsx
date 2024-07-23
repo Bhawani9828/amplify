@@ -27,7 +27,7 @@ const TestimonialSection = () => {
         <div className="global-container">
           <div className="jos mb-10 text-center lg:mb-16 xl:mb-20">
             <div className="mx-auto max-w-[300px] lg:max-w-[600px] xl:max-w-[680px]">
-              <h2 className="text-white md:text-[80px]">
+              <h2 className="text-white lg:text-[80px] md:text-[41px]  text-[24px] ">
                 Positive feedback from our users
               </h2>
             </div>

@@ -1992,7 +1992,8 @@ h5 {
 
 .bg-colorLinenRuffle {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 234 227 / var(--tw-bg-opacity));
+  /* background-color: rgb(239 234 227 / var(--tw-bg-opacity)); */
+  background-color: #2c2b5242;
 }
 
 .bg-colorViolet {

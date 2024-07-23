@@ -26,7 +26,7 @@ const ServiceSection = () => {
         <div className="global-container">
           <div className="jos mb-10 lg:mb-16 xl:mb-20">
             <div className="md:max-w-sm lg:max-w-xl xl:max-w-[746px]">
-              <h2 className="text-[80px]">
+              <h2 className="lg:text-[80px] md:text-[41px]  text-[24px] ">
                 Core features that make it valuable
               </h2>
             </div>

@@ -33,7 +33,7 @@ const FaqSection = () => {
             <div className="jos flex flex-col" data-jos_animation="fade-right">
               <div className="mb-6">
                 <div className="mx-auto md:mx-0 md:max-w-none">
-                  <h2 className="md:text-[80px]">
+                  <h2 className="lg:text-[80px] md:text-[41px]  text-[24px] ">
                     Freely ask us for more information
                   </h2>
                 </div>

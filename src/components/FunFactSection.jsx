@@ -67,7 +67,7 @@ const FunFactSection = () => {
 
           <div className="self-center px-6 py-16 sm:py-20 md:px-16 xl:px-10 xl:py-24 xxl:py-32 xxl:pl-16 xxl:pr-28">
             <div className="mb-8 lg:mb-16 xl:mb-6">
-              <h2 className="text-white text-[80px]">
+              <h2 className="text-white lg:text-[80px] md:text-[41px]  text-[24px] ">
                 AI-powered that streamline tasks
               </h2>
             </div>

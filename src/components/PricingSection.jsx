@@ -18,7 +18,7 @@ const PricingSection = () => {
         <div className="global-container">
           <div className="jos mb-10 text-center lg:mb-12">
             <div className="mx-auto md:max-w-xs lg:max-w-xl xl:max-w-[746px]">
-              <h2 className="text-[80px]">
+              <h2 className="lg:text-[80px] md:text-[41px]  text-[24px] ">
                 Cost-effectively build any software
               </h2>
             </div>
