@@ -2757,7 +2757,7 @@ h5 {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   --tw-bg-opacity: 1;
-  background-color: rgb(239 234 227 / var(--tw-bg-opacity));
+  background-color: #2c2b5242;
   padding-bottom: 4rem;
   padding-top: 6rem;
 }
@@ -2834,14 +2834,14 @@ h5 {
   width: 1.25rem;
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  background-image: url(../img/cheveron-right.svg);
+  background-image: url(../img/simple/cheveron-right.svg);
   content: var(--tw-content);
   background-size: cover;
 }
 
 .breadcrumb-nav li:last-child {
   --tw-text-opacity: 1;
-  color: rgb(254 51 10 / var(--tw-text-opacity));
+  color: #6E3897;
 }
 
 .breadcrumb-nav li:last-child::after {
@@ -2856,7 +2856,7 @@ h5 {
 
 .breadcrumb-nav a:hover {
   --tw-text-opacity: 1;
-  color: rgb(254 51 10 / var(--tw-text-opacity));
+  color: #6E3897;
 }
 
 .testimonial-nav {

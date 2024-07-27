@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { CountUp } from "countup.js";
-import funfact from "../assets/img/simple/pc.png";
+import funfact from "../assets/img/th-1/funfact-image.jpg";
 
 const FunFactSection = () => {
   const sectionRef = useRef(null);

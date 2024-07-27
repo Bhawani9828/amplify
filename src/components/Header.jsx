@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import logo from "../assets/img/simple/newlogo.png";
 import arrowright from "../assets/img/simple/icon-black-long-arrow-right.svg";
 import cheveronright from "../assets/img/simple/icon-black-cheveron-right.svg";
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -62,7 +63,7 @@ function Header() {
         <div className="flex items-center justify-between gap-x-8">
           {/* Header Logo */}
           <a href="index.html">
-            <img src={logo} alt="AIMass" width={96} height={24} />
+            <img src={logo} alt="AIMass" width={120} height={40} />
           </a>
 
           {/* Header Navigation */}
@@ -79,27 +80,11 @@ function Header() {
                 </div>
               )}
               <ul className="site-menu-main" ref={menuMainRef} onClick={handleMenuClick}>
-                <li className="nav-item nav-item-has-children">
-                  <a href="#" className="nav-link-item drop-trigger">Demo
-                    <img className="dropdown-icon" src={cheveronright} alt="cheveron-right" width={16} height={16} />
-                  </a>
-                  <ul className={`sub-menu ${activeSubMenus.includes('submenu-1') ? 'active' : ''}`} id="submenu-1">
-                    <li className="sub-menu--item">
-                      <a href="index.html">home 01</a>
-                    </li>
-                    <li className="sub-menu--item">
-                      <a href="index-2.html">home 02</a>
-                    </li>
-                    <li className="sub-menu--item">
-                      <a href="index-3.html">home 03</a>
-                    </li>
-                    <li className="sub-menu--item">
-                      <a href="index-4.html"> home 04</a>
-                    </li>
-                  </ul>
+              <li className="nav-item">
+                  <Link to='/' className="nav-link-item">Home</Link>
                 </li>
                 <li className="nav-item">
-                  <a href="about.html" className="nav-link-item">About</a>
+                  <Link to="/about" className="nav-link-item">About</Link>
                 </li>
                 <li className="nav-item nav-item-has-children">
                   <a href="#" className="nav-link-item drop-trigger">Services
@@ -107,10 +92,10 @@ function Header() {
                   </a>
                   <ul className={`sub-menu ${activeSubMenus.includes('submenu-2') ? 'active' : ''}`} id="submenu-2">
                     <li className="sub-menu--item">
-                      <a href="services.html">Services</a>
+                      <Link to="/service">Services</Link>
                     </li>
                     <li className="sub-menu--item">
-                      <a href="service-details.html">Service Details</a>
+                      <Link to="/service-details">Service Details</Link>
                     </li>
                   </ul>
                 </li>
@@ -120,23 +105,38 @@ function Header() {
                   </a>
                   <ul className={`sub-menu ${activeSubMenus.includes('submenu-3') ? 'active' : ''}`} id="submenu-3">
                     <li className="sub-menu--item nav-item-has-children">
-                      <a href="#" data-menu-get="h3" className="drop-trigger">blogs
+                      <Link to="/blog" data-menu-get="h3" className="drop-trigger">blogs
                         <img className="dropdown-icon" src={cheveronright} alt="cheveron-right" width={16} height={16} />
-                      </a>
+                      </Link>
                       <ul className={`sub-menu shape-none ${activeSubMenus.includes('submenu-4') ? 'active' : ''}`} id="submenu-4">
                         <li className="sub-menu--item">
-                          <a href="blog.html">blogs</a>
+                          <Link to="/blog">blogs</Link>
                         </li>
                         <li className="sub-menu--item">
-                          <a href="blog-details.html">blog details</a>
+                          <Link to="blog-details">blog details</Link>
                         </li>
                       </ul>
                     </li>
+                    <li className="sub-menu--item nav-item-has-children">
+                      <Link to="/career" data-menu-get="h3" className="drop-trigger">Career 
+                       
+                      </Link>
+                      </li>
+                      <li className="sub-menu--item nav-item-has-children">
+                      <Link to="/partners" data-menu-get="h3" className="drop-trigger"> Partners
+                       
+                      </Link>
+                      </li>
+                      <li className="sub-menu--item nav-item-has-children">
+                      <Link to="/features" data-menu-get="h3" className="drop-trigger"> Features
+                       
+                      </Link>
+                      </li>
                     {/* ... (other submenu items) ... */}
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a href="contact.html" className="nav-link-item">Contact</a>
+                  <Link to="/contact" className="nav-link-item">Contact</Link>
                 </li> 
               </ul>
             </nav>

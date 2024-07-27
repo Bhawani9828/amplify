@@ -4,7 +4,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 
-import th from "../assets/img/simple/brand-4.png";
+import brand1 from "../assets/img/th-1/brand-1.jpg";
+import brand2 from "../assets/img/th-1/brand-2.jpg";
+import brand3 from "../assets/img/th-1/brand-3.jpg";
+import brand5 from "../assets/img/th-1/brand-5.jpg";
+import brand6 from "../assets/img/th-1/brand-6.jpg";
+import brand7 from "../assets/img/th-1/brand-7.jpg";
 
 const BrandSlider = () => {
   return (
@@ -39,7 +44,7 @@ const BrandSlider = () => {
         <SwiperSlide>
           {" "}
           <img
-            src={th}
+            src={brand1}
             alt="brand-1"
             width={180}
             height={38}
@@ -49,7 +54,7 @@ const BrandSlider = () => {
         <SwiperSlide>
           {" "}
           <img
-            src={th}
+            src={brand7}
             alt="brand-1"
             width={180}
             height={38}
@@ -59,7 +64,7 @@ const BrandSlider = () => {
         <SwiperSlide>
           {" "}
           <img
-            src={th}
+            src={brand2}
             alt="brand-1"
             width={180}
             height={38}
@@ -69,7 +74,7 @@ const BrandSlider = () => {
         <SwiperSlide>
           {" "}
           <img
-            src={th}
+            src={brand3}
             alt="brand-1"
             width={180}
             height={38}
@@ -79,7 +84,7 @@ const BrandSlider = () => {
         <SwiperSlide>
           {" "}
           <img
-            src={th}
+            src={brand7}
             alt="brand-1"
             width={180}
             height={38}
@@ -89,7 +94,7 @@ const BrandSlider = () => {
         <SwiperSlide>
           {" "}
           <img
-            src={th}
+            src={brand5}
             alt="brand-1"
             width={180}
             height={38}
@@ -99,7 +104,7 @@ const BrandSlider = () => {
         <SwiperSlide>
           {" "}
           <img
-            src={th}
+            src={brand6}
             alt="brand-1"
             width={180}
             height={38}
@@ -109,7 +114,7 @@ const BrandSlider = () => {
         <SwiperSlide>
           {" "}
           <img
-            src={th}
+            src={brand7}
             alt="brand-1"
             width={180}
             height={38}
@@ -119,7 +124,7 @@ const BrandSlider = () => {
         <SwiperSlide>
           {" "}
           <img
-            src={th}
+            src={brand5}
             alt="brand-1"
             width={180}
             height={38}

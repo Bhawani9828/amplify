@@ -1,4 +1,4 @@
-import hero2 from "../assets/img/simple/hero2.jpg";
+import hero2 from "../assets/img/simple/hero3.jpg";
 import JOS from "jos-animation";
 import BrandSlider from "../components/BrandSlider";
 import ServiceSection from "../components/ServiceSection";

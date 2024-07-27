@@ -77,7 +77,7 @@ function Footer() {
               <li>
                 <a
                   href="index.html"
-                  className="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                  className="transition-all duration-300 ease-linear hover:text-[#C339C3]"
                 >
                   Home
                 </a>
@@ -85,7 +85,7 @@ function Footer() {
               <li>
                 <a
                   href="about.html"
-                  className="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                  className="transition-all duration-300 ease-linear hover:text-[#C339C3]"
                 >
                   About Us
                 </a>
@@ -93,7 +93,7 @@ function Footer() {
               <li>
                 <a
                   href="services.html"
-                  className="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                  className="transition-all duration-300 ease-linear hover:text-[#C339C3]"
                 >
                   Services
                 </a>
@@ -101,7 +101,7 @@ function Footer() {
               <li>
                 <a
                   href="pricing.html"
-                  className="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                  className="transition-all duration-300 ease-linear hover:text-[#C339C3]"
                 >
                   pricing
                 </a>
@@ -109,7 +109,7 @@ function Footer() {
               <li>
                 <a
                   href="contact.html"
-                  className="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                  className="transition-all duration-300 ease-linear hover:text-[#C339C3]"
                 >
                   Contact
                 </a>
@@ -126,7 +126,7 @@ function Footer() {
               <li>
                 <a
                   href="signup.html"
-                  className="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                  className="transition-all duration-300 ease-linear hover:text-[#C339C3]"
                 >
                   Signup
                 </a>
@@ -134,7 +134,7 @@ function Footer() {
               <li>
                 <a
                   href="login.html"
-                  className="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                  className="transition-all duration-300 ease-linear hover:text-[#C339C3]"
                 >
                   Login
                 </a>
@@ -142,7 +142,7 @@ function Footer() {
               <li>
                 <a
                   href="error-404.html"
-                  className="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                  className="transition-all duration-300 ease-linear hover:text-[#C339C3]"
                 >
                   404 Not found
                 </a>
@@ -150,7 +150,7 @@ function Footer() {
               <li>
                 <a
                   href="reset-password.html"
-                  className="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                  className="transition-all duration-300 ease-linear hover:text-[#C339C3]"
                 >
                   Password Reset
                 </a>
@@ -175,7 +175,7 @@ function Footer() {
                 />
                 <button
                   type="submit"
-                  className="absolute right-[5px] top-[50%] inline-block h-10 -translate-y-[50%] rounded-[50px] bg-black px-6 transition-all hover:bg-orange-500"
+                  className="absolute right-[5px] top-[50%] inline-block h-10 -translate-y-[50%] rounded-[50px] bg-black px-6 transition-all hover:bg-[#C339C3]"
                 >
                   <img src={newsletter} alt="newsletter" />
                 </button>
