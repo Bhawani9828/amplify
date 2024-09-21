@@ -88,7 +88,7 @@ function Blog() {
                         </ul>
                         {/* Blog Post Meta */}
                         <h5 className="mb-3 mt-7 text-[28px] hover:text-[#6E3897]">
-                          <Link to="/blog-details" >
+                          <Link to="/blog-details">
                             10 ways to supercharge startup with AI integration
                           </Link>
                         </h5>

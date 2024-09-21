@@ -47,7 +47,9 @@ const ContentSections = () => {
                 data-jos_animation="fade-right"
               >
                 <div className="mb-6">
-                  <h2 className="lg:text-[80px] md:text-[41px] text-[24px]">{sections.section1?.title}</h2>
+                  <h2 className="lg:text-[80px] md:text-[41px] text-[24px]">
+                    {sections.section1?.title}
+                  </h2>
                 </div>
                 <div className="text-lg leading-[1.4] lg:text-[21px]">
                   {sections.section1?.paragraphs.map((paragraph, index) => (
@@ -79,9 +81,14 @@ const ContentSections = () => {
                   className="h-auto w-full"
                 />
               </div>
-              <div className="jos md:order-3 order-4" data-jos_animation="fade-right">
+              <div
+                className="jos md:order-3 order-4"
+                data-jos_animation="fade-right"
+              >
                 <div className="mb-6">
-                  <h2 className="lg:text-[80px] md:text-[41px]  text-[24px] ">{sections.section2?.title}</h2>
+                  <h2 className="lg:text-[80px] md:text-[41px]  text-[24px] ">
+                    {sections.section2?.title}
+                  </h2>
                 </div>
                 <div className="text-lg leading-[1.4] lg:text-[21px]">
                   {sections.section2?.paragraphs.map((paragraph, index) => (

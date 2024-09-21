@@ -4,8 +4,10 @@ import logo from "../assets/img/simple/newlogo.png";
 
 function Footer() {
   return (
-    <footer className="relative z-[1] -mt-[70px] overflow-hidden bg-[aliceblue]
-     rounded-tl-[30px] rounded-tr-[30px] bg-colorLinenRuffle lg:rounded-tl-[50px] lg:rounded-tr-[50px]">
+    <footer
+      className="relative z-[1] -mt-[70px] overflow-hidden bg-[aliceblue]
+     rounded-tl-[30px] rounded-tr-[30px] bg-colorLinenRuffle lg:rounded-tl-[50px] lg:rounded-tr-[50px]"
+    >
       <div className="py-[60px] xl:pb-[100px] xl:pt-[130px]">
         <div className="overflow-hidden">
           {/* Footer Text Slider */}

@@ -16,10 +16,7 @@ import Features from './pages/Features';
 import Error404 from './pages/ErrorPage';
 
 
-
 function App() {
-
-
   return (
     <>
     <div className="page-wrapper relative z-[1] bg-white">
@@ -36,8 +33,6 @@ function App() {
         <Route path="/partners" element={<Partners />} />
         <Route path="/features" element={<Features />} />
         <Route path="/error" element={<Error404 />} />
-       
-        
       </Routes>
     <Footer/>
    

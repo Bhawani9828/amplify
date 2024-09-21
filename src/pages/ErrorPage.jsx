@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import error from '../assets/img/th-1/404-text-image.jpg';
+import error from "../assets/img/th-1/404-text-image.jpg";
 
 function Error404() {
   return (
@@ -16,12 +16,12 @@ function Error404() {
                 <h1
                   style={{
                     backgroundImage: `url(${error})`,
-                    backgroundSize: 'contain',
-                    backgroundClip: 'text',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat',
-                    WebkitBackgroundClip: 'text',
-                    color: 'transparent',
+                    backgroundSize: "contain",
+                    backgroundClip: "text",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    WebkitBackgroundClip: "text",
+                    color: "transparent",
                   }}
                   className="text-[150px] sm:text-[220px] lg:text-[300px] xl:text-[350px]"
                 >
